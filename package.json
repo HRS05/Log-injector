@@ -1,0 +1,30 @@
+{
+  "name": "logging",
+  "version": "1.0.0",
+  "description": "logging-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyte-submissions/november-2023-hiring-HRS05"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyte-submissions/november-2023-hiring-HRS05/issues"
+  },
+  "homepage": "https://github.com/dyte-submissions/november-2023-hiring-HRS05#readme",
+  "dependencies": {
+    "@apla/clickhouse": "^1.6.4",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "kafka": "^0.2.3",
+    "kafkajs": "^2.2.4",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.2"
+  }
+}

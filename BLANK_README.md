@@ -14,10 +14,8 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#video-explanation">Video Explanation</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#to-run">To Run</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -64,9 +62,6 @@ In this context, I've used Node.js as the programming language, leveraging the E
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
-
-## Video Explanation
-https://drive.google.com/file/d/1tePPBvC85ePlPS8u9pMjnLBjHb5jnu5m/view?usp=sharing
 
 ### Prerequisites
 
@@ -119,16 +114,6 @@ This is an example of how to list things you need to use the software and how to
     KAFAK_CLIENTID=my-producer
     KAFKA_BROKER1=localhost:9092   
     LOG_TOPIC=quickstart-events
-   ```
-### To Run
-
-1. Run backend application
-   ```sh
-   node index.js
-   ```
-2. Run consumer
-   ```sh
-   node consumer/logConsumer.js 
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
